@@ -1,0 +1,459 @@
+
+.plashka{
+  background-color: #ffdbfc;
+  
+}
+
+.nav-item a{
+  
+  margin-left:30px;
+  font-size: 20px;
+}
+
+
+.menu ul{
+  margin-left: 0; 
+    padding-left: 0; 
+  
+}
+
+.header{
+ 
+  margin-bottom: 30px;
+  background-color: #303ce5;
+  box-shadow: 0 14px 28px #ffdbfc, 0 10px 10px #ffdbfc;
+}
+
+.menu li{
+  width: 100%;
+  margin-bottom: 5px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  list-style-type: none; 
+  border: 2px solid #ffdbfc;
+  
+}
+.menu li a{
+  color: black;
+  
+}
+.menu li:hover{
+  background-color: #ffdbfc;
+  border: 2px solid #ffdbfc;
+  
+}
+
+
+.block-2{
+   border: 2px solid green;
+  background-color: #cccccc;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.menu-2{
+ 
+ background: white;
+
+  margin-top: 25px;
+  margin-bottom: 25px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+
+.carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
+
+
+.crutil{
+ margin-bottom: 20px;
+  padding: 0px !important;
+  
+}
+
+
+.menu {
+  border-radius: 80% ;
+  
+}
+
+.text{
+  text-align: center;
+  font-size: 30px;
+  
+  box-shadow: 0 14px 28px #ffdbfc, 0 10px 10px #ffdbfc;
+}
+
+/*-------купальники--- 3 блока---------*/
+
+ .flex-kupalnik {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  max-width: 1170px;
+ 
+}
+
+.flex-kupalnik  .ramka-b {
+ margin: 35px 5px;
+  width: 300px;
+  height: 300px;
+  min-height: 150px;
+  text-align: center;
+  
+  
+  
+
+}
+
+.kupalnik-1{
+
+  background-image: url('https://irecommend.ru/sites/default/files/product-images/368076/PFsbdxP8cbyzKMXt9I7vw.jpg'); 
+  background-position: top center;
+  background-size: cover;
+  
+}
+
+.kupalnik-2{
+  background-image: url('https://www.dhresource.com/0x0s/f2-albu-g8-M01-C7-11-rBVaVFzjcFCAPFbXAAOnNBC4V4A382.jpg/new-style.jpg'); 
+  background-position: top center;
+  background-size: cover;
+}
+
+.kupalnik-3{
+   background-image: url('https://img.bigsale.com.ua/2018/05/29/letnie-skidki-na-kupalniki-i-bele-v-women-secret_5b0d6af31a03f_org.jpg'); 
+  background-position: top center;
+  background-size: cover;
+  
+}
+
+
+.menu-block-1 p{
+   color: black;
+  font-size: 40px;
+ 
+ margin-top:100%;
+  text-align: center ;
+
+  
+}
+.menu-block-1 a{
+   text-decoration: none;
+  
+}
+.menu-block-1 a:hover{
+   text-decoration: none;
+  
+}
+
+
+.menu-block-1 p:hover{
+  color: black;
+  font-size: 40px;
+  border: 2px solid #ffdbfc;
+  margin-top:100%;
+ 
+}
+
+@media (max-width: 630px){
+.flex-kupalnik > div {
+width: 200px;
+}
+.flex-kupalnik {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+}
+}
+
+
+/*-----------купальники ----3-блока-------КОНЕЦ------*/
+
+
+
+
+
+/* Кнопка Подпись - регистрация*/
+.bottom-podpis{
+ display: block;
+  width: 140px;
+  height:40px;
+  background-color:#ffdbfc;
+
+  
+}
+.bottom-podpis p{
+ padding: 10px; 
+  text-align: center; 
+}
+
+
+.bottom-podpis:hover{
+ background-color: #ffaff3;
+}
+
+/* --------Шесть кубов менюшки------------------ */
+/*.ramka{
+  border: 2px solid green;
+
+}
+*/
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  justify-content: center;
+  margin: auto;
+  max-width: 1170px;
+
+
+  
+ 
+}
+
+.flex-container  .ramka-b {
+ margin: 5px;
+  width: 350px;
+  min-width: 200px;
+  height: 240px;
+ 
+  text-align: center;
+   
+
+}
+
+.platja{
+  background-image: url('https://i.ibb.co/WGkqVk4/foto-2.jpg'); 
+  background-position: top center;
+  background-size: cover;
+  
+}
+
+.kurtki{
+  background-image: url('https://i.ibb.co/w6y9VFK/foto-1.jpg'); 
+  background-position: top center;
+  background-size: cover;
+}
+
+.obuv{
+   background-image: url('https://i.ibb.co/svW9jg8/foto-3.jpg'); 
+  background-position: top center;
+  background-size: cover;
+  
+}
+.jubki{
+   background-image: url('https://i.ibb.co/QM22zdh/foto-4.jpg'); 
+  background-position: top center;
+  background-size: cover;
+  
+}
+.sumki{
+   background-image: url('https://i.ibb.co/mXBkZHK/foto-5.jpg'); 
+  background-position: top center;
+  background-size: cover;
+  
+}
+.aksessuary{
+   background-image: url('https://i.ibb.co/BnF3BK8/foto-6.jpg'); 
+  background-position: top center;
+  background-size: cover;
+  
+}
+
+
+
+.menu-block p{
+  color: white;
+  font-size: 40px;
+  text-shadow: red 0 0 4px;
+ margin-top:50%;
+
+  
+}
+.menu-block a{
+   text-decoration: none;
+  
+}
+.menu-block a:hover{
+   text-decoration: none;
+  
+}
+
+.menu-block p:hover{
+  color: white;
+  font-size: 40px;
+  border: 2px solid #ffdbfc;
+   margin-top:50%;
+
+}
+
+/* --------Шесть кубов менюшки-----КОНЕЦ------------- */
+
+.skidka{
+  margin-top:50px;
+  
+}
+
+
+ .row .back{
+background-color: #ffce5e;
+  
+}
+.opis-niz{
+  margin-top:50px;
+  
+}
+.opis-niz .ramka{
+  background-color: #fff5fe;
+  padding-top:10px;
+}
+
+.opis-niz .center{
+  text-align:center;
+  font-size:20px;
+}
+
+.opis-niz img{
+  width: 100%;
+  max-width: 100px;
+ display: block;
+  margin: 0 auto;  
+  ma-bottom:55px;
+}
+
+.skidka img{
+  display: block;
+  margin: 0 auto;
+  
+}
+
+/*ЧАСТЬ КОДА ДЛЯ ФУТЕРА*/
+.footer{
+  margin-top: 100px;
+  background-color: black;
+  padding-top: 20px;
+}
+
+.footer a{
+  color:#ff9bf3;
+ 
+}
+.footer a:hover{
+  color:white;
+  text-decoration: none;
+}
+
+
+.footer-b{
+  color: white;
+  font-size: 25px;
+}
+
+.footer li{
+  list-style-type: none;
+ margin-left: 0; 
+    padding-left: 0;
+  
+}
+
+.footer ul{
+  margin-left:0;
+  padding-left:0;
+  
+}
+/*ЧАСТЬ КОДА ДЛЯ ФУТЕРА-----КОНЕЦ-----*/
+
+
+/*КНОПКИ СОЦ СЕТЕЙ*/
+
+.social a{
+    text-align: center;
+    width: 55px;
+    height: 55px;
+    float: left;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+    border-radius: 46px;
+    margin: 0 10px 10px 0;
+    padding: 6px;
+    color: #000;
+  
+}
+.youtube a{
+  background-size:400px;
+  background-position: -210px -69px;
+  background-repeat: no-repeat;
+background-image: url(https://graphicsland.ru/wp-content/uploads/social_icons_v2_graphicsland.ru-5-700x578.png);
+}
+.google-pluse a{
+   background-size:400px;
+  background-position: -279px 1px;
+  background-repeat: no-repeat;
+background-image: url(https://graphicsland.ru/wp-content/uploads/social_icons_v2_graphicsland.ru-5-700x578.png);
+}
+.twitter a{
+   background-size:400px;
+  background-position: -210px 1px;
+  background-repeat: no-repeat;
+background-image: url(https://graphicsland.ru/wp-content/uploads/social_icons_v2_graphicsland.ru-5-700x578.png);
+}
+.instagram a{
+   background-size:400px;
+  background-position: -348px 1px;
+  background-repeat: no-repeat;
+background-image: url(https://graphicsland.ru/wp-content/uploads/social_icons_v2_graphicsland.ru-5-700x578.png);
+}
+.facebook a{
+   background-size:400px;
+  background-position: -140px 1px;
+  background-repeat: no-repeat;
+background-image: url(https://graphicsland.ru/wp-content/uploads/social_icons_v2_graphicsland.ru-5-700x578.png);
+}
+
+
+
+.youtube a:hover 
+{
+   background-color: #c4302b; 
+  background-size:400px;
+  background-position: -210px -69px;
+  background-repeat: no-repeat;
+background-image: url(https://graphicsland.ru/wp-content/uploads/social_icons_v2_graphicsland.ru-5-700x578.png);
+
+}
+.google-pluse a:hover
+{
+  background-color: #4987fc;
+   background-size:400px;
+  background-position: -279px 1px;
+  background-repeat: no-repeat;
+background-image: url(https://graphicsland.ru/wp-content/uploads/social_icons_v2_graphicsland.ru-5-700x578.png);
+}
+.twitter a:hover 
+{
+  background-color: #96e1ff; 
+  background-size:400px;
+  background-position: -210px 1px;
+  background-repeat: no-repeat;
+background-image: url(https://graphicsland.ru/wp-content/uploads/social_icons_v2_graphicsland.ru-5-700x578.png);
+}
+.instagram a:hover 
+{
+  background-color: #efc728; 
+  background-size:400px;
+  background-position: -348px 1px;
+  background-repeat: no-repeat;
+background-image: url(https://graphicsland.ru/wp-content/uploads/social_icons_v2_graphicsland.ru-5-700x578.png);
+}
+.facebook a:hover 
+{
+  background-color: #6675f4; 
+   background-size:400px;
+  background-position: -140px 1px;
+  background-repeat: no-repeat;
+background-image: url(https://graphicsland.ru/wp-content/uploads/social_icons_v2_graphicsland.ru-5-700x578.png);
+}
+
+/*КНОПКИ СОЦ СЕТЕЙ-------КОНЕЦ*/
