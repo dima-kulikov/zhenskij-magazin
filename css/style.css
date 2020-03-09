@@ -1,8 +1,19 @@
-
 .plashka{
   background-color: #ffdbfc;
+  height: 50px;
   
 }
+.plashka__namber{
+  cursor: pointer;
+}
+.plashka__center{
+  display: block;
+  text-align: center;
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+}
+
 
 .nav-item a{
   
