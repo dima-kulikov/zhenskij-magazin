@@ -15,12 +15,18 @@
 }
 
 
-.nav-item a{
-  
+.nav-item .nav-link{
   margin-left:30px;
-  font-size: 20px;
+  font-size: 18px;
 }
-
+.nav-item .nav-link:hover{
+  margin-left:30px;
+  font-size: 18px;
+  border-bottom: 3px solid #f5c9ed;
+}
+.nav-link:hover{
+  padding: 0.3rem 1rem;
+}
 
 .menu ul{
   margin-left: 0; 
@@ -52,6 +58,22 @@
   border: 2px solid #f5c9ed;
   
 }
+.btn-search{
+  width: 80px;
+  height: 35px;
+  background-color: #f5c9ed;
+  border-color: #f5c9ed;
+  border-radius: 5px;
+  color: black;
+  cursor: pointer;
+}
+.btn-search:hover{
+  background-color: #f587e1;
+  border-color: #f587e1;
+  color: black;
+
+}
+
 
 
 .block-2{
@@ -467,8 +489,5 @@ background-image: url(https://graphicsland.ru/wp-content/uploads/social_icons_v2
 background-image: url(https://graphicsland.ru/wp-content/uploads/social_icons_v2_graphicsland.ru-5-700x578.png);
 }
 
-.btn {
-  background-color: brown;
-}
 
 /*КНОПКИ СОЦ СЕТЕЙ-------КОНЕЦ*/

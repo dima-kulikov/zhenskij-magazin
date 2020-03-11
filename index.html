@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Document</title>
-<link rel="stylesheet" href="/css/bootstrap.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="/css/style.css">
 
 <!-- jQuery library -->
@@ -61,12 +61,15 @@
         <a class="nav-link" href="#">Новости</a>
       </li>   
       <li class="nav-item">
+        <a class="nav-link" href="#">Доставка</a>
+      </li> 
+      <li class="nav-item">
         <a class="nav-link" href="#">Контакты</a>
       </li> 
     </ul>
      <form class="form-inline justify-content-right" action="/action_page.php">
     <input class="form-control mr-sm-2 " type="text" placeholder="Найти товар">
-    <button class="btn-2 btn-success btn" type="submit">Поиск</button>
+    <button class="btn-2 btn-success btn-search" type="submit">Поиск</button>
   </form>
   </div>  
 </nav>
@@ -78,13 +81,13 @@
 
 <!-----------Левое --крутилка-------->
   <div class="row">
-  <div class="col-sm-1 ">
+  <div class="col-sm-1 col-lg-3">
     
   </div>
   <!-----------Левое------ КОНЕЦ- крутилка--->
     
     <!--------------КРУТИЛКА------------------>
-  <div class="col-sm-10 crutil ">
+  <div class="col-sm-10 col-lg-6 crutil ">
     
     
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -96,7 +99,7 @@
     <li data-target="#myCarousel" data-slide-to="2"></li>
   </ul>
   <!-- The slideshow -->
-  <div class="carousel-inner">
+  <div class="carousel-inner carusel-img">
     <div class="carousel-item active">
       <img src="/img/banner-1.jpg" alt="Los Angeles" width="900" height="450" >
     </div>
@@ -124,81 +127,78 @@
     </div>
 </div>
   
-  <div class="col-sm-1">
+  <div class="col-sm-1 col-lg-3">
  </div>
 </div>
 
   <!-------------МЕНЮ НИЖЕ БАННЕРА---------------->
-<nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-center"> -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-center"> 
 
 
   <!-- Links -->
   <ul class="navbar-nav">
-  
     <!-- Dropdown -->
     <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-        Пункт-11
-      </a>
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Платья</a>
       <div class="dropdown-menu">
-        <a class="dropdown-item" href="#">1- 1</a>
-        <a class="dropdown-item" href="#">1- 2</a>
-        <a class="dropdown-item" href="#">1- 3</a>
+        <a class="dropdown-item" href="#">Вечерние платья</a>
+        <a class="dropdown-item" href="#">Повседневные платья</a>
+        <a class="dropdown-item" href="#">Деловые платья</a>
+        <a class="dropdown-item" href="#">Спортивные платья</a>
+      </div>
+    </li>
+     <!-- Dropdown -->
+     <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Юбки</a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Длинные юбки</a>
+        <a class="dropdown-item" href="#">Короткие юбки</a>
+      </div>
+    </li>
+     <!-- Dropdown -->
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Костюмы</a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Деловые костюмы</a>
+        <a class="dropdown-item" href="#">Брючные костюмы</a>
+        <a class="dropdown-item" href="#">Костюмы с шортами</a>
+        <a class="dropdown-item" href="#">Костюмы с юбкой</a>
+        <a class="dropdown-item" href="#">Пижамы</a>
+      </div>
+    </li>
+     <!-- Dropdown -->
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Кофты, блузки</a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Кофты</a>
+        <a class="dropdown-item" href="#">Туники</a>
+        <a class="dropdown-item" href="#">Рубашки</a>
+        <a class="dropdown-item" href="#">Блузки</a>
+        <a class="dropdown-item" href="#">Свитшоты</a>
       
       </div>
     </li>
-    
      <!-- Dropdown -->
-    <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-        Пункт-2
-      </a>
+     <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Обувь</a>
       <div class="dropdown-menu">
-        <a class="dropdown-item" href="#">2- 1</a>
-        <a class="dropdown-item" href="#">2- 2</a>
-        <a class="dropdown-item" href="#">2- 3</a>
+        <a class="dropdown-item" href="#">Кофты</a>
+        <a class="dropdown-item" href="#">Туники</a>
+        <a class="dropdown-item" href="#">Рубашки</a>
+        <a class="dropdown-item" href="#">Блузки</a>
+        <a class="dropdown-item" href="#">Свитшоты</a>
       
       </div>
     </li>
-    
-    
      <!-- Dropdown -->
-    <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-        Пункт-3
-      </a>
+     <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Кофты, блузки</a>
       <div class="dropdown-menu">
-        <a class="dropdown-item" href="#">3- 1</a>
-        <a class="dropdown-item" href="#">3- 2</a>
-        <a class="dropdown-item" href="#">3- 3</a>
-      
-      </div>
-    </li>
-    
-    
-     <!-- Dropdown -->
-    <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-        Пункт-4
-      </a>
-      <div class="dropdown-menu">
-        <a class="dropdown-item" href="#">4- 1</a>
-        <a class="dropdown-item" href="#">4-2</a>
-        <a class="dropdown-item" href="#">4-3</a>
-      
-      </div>
-    </li>
-    
-    
-     <!-- Dropdown -->
-    <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-        Пункт-5
-      </a>
-      <div class="dropdown-menu">
-        <a class="dropdown-item" href="#">5- 1</a>
-        <a class="dropdown-item" href="#">5- 2</a>
-        <a class="dropdown-item" href="#">5- 3</a>
+        <a class="dropdown-item" href="#">Кофты</a>
+        <a class="dropdown-item" href="#">Туники</a>
+        <a class="dropdown-item" href="#">Рубашки</a>
+        <a class="dropdown-item" href="#">Блузки</a>
+        <a class="dropdown-item" href="#">Свитшоты</a>
       
       </div>
     </li>
