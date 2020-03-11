@@ -130,21 +130,38 @@
 .flex-kupalnik  .ramka-b {
  margin: 35px 5px;
   width: 300px;
-  height: 300px;
+  height: 320px;
   min-height: 150px;
   text-align: center;
-  
-  
-  
+  border: 2px solid #f5c9ed;
+  border-radius: 10px;
+  position: relative;
+}
+
+.btn-cupalnik a{
+  display: block;
+  color: rgba(0,0,0,.5);
+  font-size: 20px;
+  margin-top: 330px;
+background-color: #f5c9ed;
+border-radius: 10px;
+border: 2px solid #f5c9ed;
+text-decoration: none;
+}
+
+.btn-cupalnik a:hover{
+  background-color: #f587e1;
+  color: wheat;
 
 }
 
-.kupalnik-1{
 
+
+
+.kupalnik-1{
   background-image: url('https://irecommend.ru/sites/default/files/product-images/368076/PFsbdxP8cbyzKMXt9I7vw.jpg'); 
   background-position: top center;
   background-size: cover;
-  
 }
 
 .kupalnik-2{
@@ -157,36 +174,8 @@
    background-image: url('https://img.bigsale.com.ua/2018/05/29/letnie-skidki-na-kupalniki-i-bele-v-women-secret_5b0d6af31a03f_org.jpg'); 
   background-position: top center;
   background-size: cover;
-  
 }
 
-
-.menu-block-1 p{
-   color: black;
-  font-size: 40px;
- 
- margin-top:100%;
-  text-align: center ;
-
-  
-}
-.menu-block-1 a{
-   text-decoration: none;
-  
-}
-.menu-block-1 a:hover{
-   text-decoration: none;
-  
-}
-
-
-.menu-block-1 p:hover{
-  color: black;
-  font-size: 40px;
-  border: 2px solid #f5c9ed;
-  margin-top:100%;
- 
-}
 
 @media (max-width: 630px){
 .flex-kupalnik > div {
