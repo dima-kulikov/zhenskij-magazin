@@ -467,4 +467,8 @@ background-image: url(https://graphicsland.ru/wp-content/uploads/social_icons_v2
 background-image: url(https://graphicsland.ru/wp-content/uploads/social_icons_v2_graphicsland.ru-5-700x578.png);
 }
 
+.btn {
+  background-color: brown;
+}
+
 /*КНОПКИ СОЦ СЕТЕЙ-------КОНЕЦ*/
