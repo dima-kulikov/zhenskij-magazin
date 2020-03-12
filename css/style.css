@@ -151,7 +151,7 @@ text-decoration: none;
 
 .btn-cupalnik a:hover{
   background-color: #f587e1;
-  color: wheat;
+  color: white;
 
 }
 
@@ -192,34 +192,22 @@ width: 200px;
 /*-----------купальники ----3-блока-------КОНЕЦ------*/
 
 
-
-
-
-/* Кнопка Подпись - регистрация*/
-.bottom-podpis{
- display: block;
-  width: 140px;
-  height:40px;
-  background-color:#f5c9ed;
-
-  
-}
-.bottom-podpis p{
- padding: 10px; 
-  text-align: center; 
-}
-
-
-.bottom-podpis:hover{
- background-color: #f5c9ed;
-}
-
 /* --------Шесть кубов менюшки------------------ */
 /*.ramka{
   border: 2px solid green;
 
 }
 */
+.btn-sale{
+  width: 250px;
+  background-color: white;
+  font-size: 20px;
+  color: #f587e1;
+}
+.btn-sale:hover{
+  color: white;
+  background-color: #55b35a;
+}
 
 .flex-container {
   display: flex;
@@ -289,37 +277,39 @@ width: 200px;
   color: white;
   font-size: 40px;
   text-shadow: red 0 0 4px;
- margin-top:50%;
+  margin-top:180px;
+  z-index: 5;
 
   
 }
 .menu-block a{
    text-decoration: none;
-  
 }
-.menu-block a:hover{
-   text-decoration: none;
-  
-}
+
 
 .menu-block p:hover{
   color: white;
   font-size: 40px;
-  border: 2px solid #ffdbfc;
-   margin-top:50%;
+  /* border: 4px solid #ffdbfc; */
+   /* margin-top:50%; */
+   background-color: rgb(245, 201, 237, 0.7);
+   /* background-color:rgb(252,227,138, 0.9); */
 
 }
 
 /* --------Шесть кубов менюшки-----КОНЕЦ------------- */
 
 .skidka{
-  margin-top:50px;
+  margin:50px;
   
 }
 
 
  .row .back{
-background-color: #ffce5e;
+   padding: 40px;
+   text-align: center;
+background-color: #ffdbfc;
+box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   
 }
 .opis-niz{
@@ -347,6 +337,7 @@ background-color: #ffce5e;
 .skidka img{
   display: block;
   margin: 0 auto;
+  border: none;
   
 }
 
