@@ -25,18 +25,21 @@
     <div class="col-sm-1"></div>
   
   <div class="col-sm-2 plashka__namber">
-    <strong> +38(073) 000-00-00</strong>
+    <strong><a href="tel:12345678"> +38(073) 000-00-00</a></strong>
   </div>
   
   <div class="col-sm-6 d-none d-sm-block plashka__center">
-        Всегда в моде
+       <div class="header-h3"> 
+        <h3> Всегда в моде</h3>
+        </div>
   </div>
   
   <div class="col-sm-2   plashka__registr">
-    <a href="/">Вход</a>
-      |
-     <a href="/">Регистрация</a>
+    <a class="plashka__registr__vhod" href="#">Вход</a>  
+    <a href="#">Регистрация</a>
   </div>
+  
+
   <div class="col-sm-1"></div>
     </div>
   <!----Верхняя плашка------КОНЕЦ----->
@@ -97,6 +100,7 @@
     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
     <li data-target="#myCarousel" data-slide-to="1"></li>
     <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
   </ul>
   <!-- The slideshow -->
   <div class="carousel-inner carusel-img">
@@ -132,7 +136,7 @@
 </div>
 
   <!-------------МЕНЮ НИЖЕ БАННЕРА---------------->
-<nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-center"> 
+<nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-center justify-content-left"> 
 
 
   <!-- Links -->
@@ -234,27 +238,26 @@
   <!--------------------КОНЕЦ----------------->
   
 <div class="row skidka" style="margin-top:65px;">
-   <div class="col ramka d-none d-md-block">
+   <div class="col ramka d-none d-lg-block">
     
     </div>
   
-  <div class="col-md-3 ">
+  <div class="col-10 col-md-6 col-lg-3 skidka__img">
     <img src="http://www.mksystem.ru/img/image/magn_stripe.jpg"  class="img-thumbnail">
-    <!-- <img src="/img/10.jpg"  class="img-thumbnail"> -->
  </div>
-   <div class="col-md-5 back">
+   <div class="col-10 col-md-6 col-lg-5 back skidka__text">
      <h3>Хотите скидочную карту на 10%?</h3>
      <p>Просто подпишитесь на нашу рассылку и мы даем скидку 10% на любую покупку.<br>
      А так-же Вы сможете первыми узнавать про акционные предложения и распродажи прошлых коллекций.</p>
 
      <button type="button" class="btn btn-sale">Подписаться</button>
  </div>
-   <div class="col-sm-3 d-none d-md-block">
+   <div class="col-lg-3 d-none d-lg-block">
     <img src="http://www.mksystem.ru/img/image/magn_stripe.jpg"  class="img-thumbnail">
  </div>
      
   
-   <div class="col ramka d-none d-md-block">
+   <div class="col ramka d-none d-lg-block">
     
     </div>
   </div> 
@@ -285,26 +288,26 @@
 
   <!--------------Шесть кубов менюшки-----КОНЕЦ------------>
   <div class="row opis-niz ">
-  <div class="col  ramka">
+  <div class="col d-none d-lg-block ">
     
     </div>
-  <div class="col-sm-3 ramka">
+  <div class="col-10 col-md-10 col-lg-3 ramka">
 <div class="ramka__dostavka">
     <img  src="./img/icon/icon-1.png"   alt="Cinque Terre" >
 </div>
-    
     <p class="center">Быстрая доставка по всей Украине</p>
     <p>Мы гарантируем, что ваш заказ будет доставлен в любую точку Украины до 8 дней. Доставка бесплатна при заказе от 750 гривен.</p>
     
  </div>
-   <div class="col-sm-3 ramka">
+   <div class="col-10 col-md-10 col-lg-3 ramka">
     <div class="ramka__dostavka">
       <img src="./img/icon/icon-2.png" alt="Cinque Terre" >
     </div>
      <p class="center">Проверка качества перед покупкой</p>
      <p>Вы можете проверить качество вещей перед курьером и выкупить заказ только, если вы им довольны. Оплачивайте только то, что вам понравилось.</p>
  </div>
-   <div class="col-sm-3 ramka">
+
+   <div class="col-10 col-md-10 col-lg-3  ramka">
     <div class="ramka__dostavka">
   <img src="/img/icon/icon-3.png"  alt="Cinque Terre" >
 </div>
@@ -312,16 +315,14 @@
      <p class="center">Подлинные товары известных брендов</p>
      <p>Мы гарантируем качество и подлинность каждой вещи, которую вы у нас купите. И у вас всегда есть 30 дней, чтобы вернуть товар со 100% возмещением.</p>
  </div>
-     <div class="col  ramka">
-    
+     <div class="col  d-none d-lg-block">
     </div>
- 
      </div> 
  <!-----------------Футтер сайта----------------------------------->
 <div class="row footer">
-       <div class="col ">
+       <div class="col d-none d-lg-block">
  </div>
-       <div class="col-sm-2 ">
+       <div class="col-6 col-sm-4 col-lg-2">
          <p class="footer-b">Помощь</p>
          <ul>
            <li><a href="">О магазине</a></li>
@@ -331,7 +332,7 @@
          </ul>   
  </div>
   
-       <div class="col-sm-2 ">
+       <div class="col-6 col-sm-4 col-lg-2">
          <p class="footer-b">Информация</p>
          <ul>
            <li><a href="">условия Доставки</a></li>
@@ -340,7 +341,7 @@
            <li><a href="">Статус заказа</a></li>
          </ul> 
   </div>
-       <div class="col-sm-2 ">
+       <div class="col-6 col-sm-4 col-lg-2">
           <p class="footer-b">Мой Аккаунт</p>
          <ul>
            <li><a href="">Регистрация</a></li>
@@ -349,7 +350,7 @@
            <li><a href="">История покупок</a></li>
          </ul> 
   </div>
-       <div class="col-sm-2 ">
+       <div class="col-6 col-sm-4 col-lg-2">
           <p class="footer-b">Новинки</p>
          <ul>
            <li><a href="">Верхняя одежда</a></li>
@@ -360,7 +361,7 @@
            <li><a href="">Акции</a></li>
          </ul> 
   </div>
-       <div class="col-sm-2 ">
+       <div class="col-12 col-sm-4 col-lg-2">
           <p class="footer-b">Мы в Сетях</p>
          <ul>
            <li><div class="social youtube">
@@ -381,7 +382,7 @@
           
          </ul> 
     </div>
-        <div class="col ">
+        <div class="col d-none d-lg-block">
      </div>
  </div> 
 <!-----------------Футтер сайта---------------КОНЕЦ-------------------->

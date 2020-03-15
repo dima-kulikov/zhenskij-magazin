@@ -1,10 +1,17 @@
+/* .row{
+  margin-left: 0px;
+  margin-right: 0px;
+} */
+
 .plashka{
   background-color: #f5c9ed;
   height: 50px;
   
 }
-.plashka__namber{
+.plashka__namber a{
   cursor: pointer;
+  color: black;
+  text-decoration: none;
 }
 .plashka__center{
   display: block;
@@ -14,7 +21,38 @@
   font-weight: bold;
 }
 
+.header-h3 {
+  text-align: center;
 
+}
+.header-h3 h3 {
+  display: inline-block;
+  background-color: white;
+  margin-bottom: 0;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  padding: .5rem 1.5rem;
+  border: .125rem solid #f5c9ed;
+  color: #f5c9ed;
+}
+
+
+
+
+
+
+.plashka__registr{
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+.plashka__registr a{
+  cursor: pointer;
+  color: black;
+}
+.plashka__registr__vhod{
+  margin-right: 10px;
+}
 .nav-item .nav-link{
   margin-left:30px;
   font-size: 18px;
@@ -22,10 +60,12 @@
 .nav-item .nav-link:hover{
   margin-left:30px;
   font-size: 18px;
-  border-bottom: 3px solid #f5c9ed;
+  border-radius: 50%;
+  box-shadow: 0 5px 0 #f5c9ed;
+  background-color: rgb(245, 201, 237, 0.4);
 }
 .nav-link:hover{
-  padding: 0.3rem 1rem;
+  padding: 0.5rem 1rem;
 }
 
 .menu ul{
@@ -35,9 +75,7 @@
 }
 
 .header{
- 
   margin-bottom: 30px;
-  /* background-color: #303ce5; */
   box-shadow: 0 14px 28px #f5c9ed, 0 10px 10px #f5c9ed;
 }
 
@@ -47,29 +85,28 @@
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   list-style-type: none; 
   border: 2px solid #f5c9ed;
-  
 }
 .menu li a{
   color: #f5c9ed;
-  
 }
-.menu li:hover{
+ .menu li:hover{
   background-color: #f5c9ed;
-  border: 2px solid #f5c9ed;
-  
+  border: 2px solid #f5c9ed; 
 }
 .btn-search{
   width: 80px;
   height: 35px;
   background-color: #f5c9ed;
-  border-color: #f5c9ed;
-  border-radius: 5px;
+  border: none;
   color: black;
   cursor: pointer;
+  border-radius: 50%;
+  box-shadow: 0 5px 0 #f5c9ed;
+  background-color: rgb(245, 201, 237, 0.4);
 }
 .btn-search:hover{
-  background-color: #f587e1;
-  border-color: #f587e1;
+  background-color: #f5c9ed;
+  border-color: #f5c9ed;
   color: black;
 
 }
@@ -199,7 +236,7 @@ width: 200px;
 }
 */
 .btn-sale{
-  width: 250px;
+  max-width: 250px;
   background-color: white;
   font-size: 20px;
   color: #f587e1;
@@ -207,6 +244,7 @@ width: 200px;
 .btn-sale:hover{
   color: white;
   background-color: #55b35a;
+  /* transform: scale(1.2); */
 }
 
 .flex-container {
@@ -304,10 +342,15 @@ width: 200px;
 
 
 .skidka{
-  margin:50px;
+  margin:50px 0px;
   
 }
-
+.skidka__img{
+  margin: 0px auto;
+  }
+  .skidka__text{
+    margin: 0px auto;
+  }
 
  .row .back{
    padding: 40px;
@@ -318,12 +361,21 @@ box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 .opis-niz{
   margin-top:50px;
+  justify-content: center;
   
 }
 .opis-niz .ramka{
   background-color: #f5c9ed;
   padding-top:10px;
+  margin: 15px;
+  transition:all 0.4s ease;
 }
+.opis-niz .ramka:hover{
+  -webkit-transform: rotateZ(-8deg);
+  -ms-transform: rotateZ(-8deg);
+  transform: rotateZ(-8deg);
+}
+
 
 .opis-niz .center{
   text-align:center;
@@ -335,6 +387,9 @@ box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   width: 100px;
   background-color: white;
   margin: 0px auto;
+}
+.flex-container .ramka-b:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 .opis-niz img{
@@ -353,8 +408,9 @@ width: 100%;
 /*ЧАСТЬ КОДА ДЛЯ ФУТЕРА*/
 .footer{
   margin-top: 100px;
-  background-color: black;
-  padding-top: 20px;
+  /* background-color: black; */
+  padding: 15px;
+  background-image: url(/img/footer-bg.jpg);
 }
 
 .footer a{
@@ -480,3 +536,7 @@ background-image: url(https://graphicsland.ru/wp-content/uploads/social_icons_v2
 
 
 /*КНОПКИ СОЦ СЕТЕЙ-------КОНЕЦ*/
+
+@media (max-width: 12450px) {
+  @media (max-width: 12450px) {{
+}
