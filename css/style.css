@@ -406,11 +406,14 @@ width: 100%;
 }
 
 /*ЧАСТЬ КОДА ДЛЯ ФУТЕРА*/
+.footer-bg{
+  background-image: url("./img/footer-bg.jpg");
+}
+
 .footer{
   margin-top: 100px;
   /* background-color: black; */
   padding: 15px;
-  background-image: url("./img/elektrody-banner.jpg");
 }
 
 .footer a{
