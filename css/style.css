@@ -410,7 +410,7 @@ width: 100%;
   margin-top: 100px;
   /* background-color: black; */
   padding: 15px;
-  background-image: url(/img/footer-bg.jpg);
+  background-image: url("./img/footer.jpg");
 }
 
 .footer a{
@@ -537,6 +537,3 @@ background-image: url(https://graphicsland.ru/wp-content/uploads/social_icons_v2
 
 /*КНОПКИ СОЦ СЕТЕЙ-------КОНЕЦ*/
 
-@media (max-width: 12450px) {
-  @media (max-width: 12450px) {{
-}
