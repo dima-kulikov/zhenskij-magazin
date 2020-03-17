@@ -34,9 +34,13 @@
   padding: .5rem 1.5rem;
   border: .125rem solid #f5c9ed;
   color: #f5c9ed;
+  border-radius: 25px;
 }
-
-
+.header-h3 :hover{
+  background-color: #f5c9ed;
+  color: white;
+  border: 2px solid white;
+}
 
 
 
@@ -406,14 +410,16 @@ width: 100%;
 }
 
 /*ЧАСТЬ КОДА ДЛЯ ФУТЕРА*/
-.footer-bg{
-  background-image: url("./img/footer-bg.jpg");
-}
+
 
 .footer{
   margin-top: 100px;
   /* background-color: black; */
   padding: 15px;
+  background-image: url(img/footer-bg.jpg);
+}
+.footer-bg{
+  background-image: url("./img/footer-bg.jpg");
 }
 
 .footer a{
