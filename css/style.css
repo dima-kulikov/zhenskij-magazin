@@ -3,17 +3,16 @@
   margin-right: 0px;
 } */
 
-.plashka{
+.plashka {
   background-color: #f5c9ed;
   height: 50px;
-  
 }
-.plashka__namber a{
+.plashka__namber a {
   cursor: pointer;
   color: black;
   text-decoration: none;
 }
-.plashka__center{
+.plashka__center {
   display: block;
   text-align: center;
   color: black;
@@ -23,7 +22,6 @@
 
 .header-h3 {
   text-align: center;
-
 }
 .header-h3 h3 {
   display: inline-block;
@@ -31,73 +29,69 @@
   margin-bottom: 0;
   font-size: 1.5rem;
   text-transform: uppercase;
-  padding: .5rem 1.5rem;
-  border: .125rem solid #f5c9ed;
+  padding: 0.5rem 1.5rem;
+  border: 0.125rem solid #f5c9ed;
   color: #f5c9ed;
   border-radius: 25px;
 }
-.header-h3 :hover{
+.header-h3 :hover {
   background-color: #f5c9ed;
   color: white;
   border: 2px solid white;
 }
 
-
-
-
-.plashka__registr{
+.plashka__registr {
   display: flex;
   justify-content: center;
   font-weight: bold;
 }
-.plashka__registr a{
+.plashka__registr a {
   cursor: pointer;
   color: black;
 }
-.plashka__registr__vhod{
+.plashka__registr__vhod {
   margin-right: 10px;
 }
-.nav-item .nav-link{
-  margin-left:30px;
+.nav-item .nav-link {
+  margin-left: 30px;
   font-size: 18px;
 }
-.nav-item .nav-link:hover{
-  margin-left:30px;
+.nav-item .nav-link:hover {
+  margin-left: 30px;
   font-size: 18px;
   border-radius: 50%;
   box-shadow: 0 5px 0 #f5c9ed;
   background-color: rgb(245, 201, 237, 0.4);
 }
-.nav-link:hover{
+.nav-link:hover {
   padding: 0.5rem 1rem;
 }
 
-.menu ul{
-  margin-left: 0; 
-    padding-left: 0; 
-  
+.menu ul {
+  margin-left: 0;
+  padding-left: 0;
 }
 
-.header{
+.header {
   margin-bottom: 30px;
   box-shadow: 0 14px 28px #f5c9ed, 0 10px 10px #f5c9ed;
 }
 
-.menu li{
+.menu li {
   width: 100%;
   margin-bottom: 5px;
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-  list-style-type: none; 
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  list-style-type: none;
   border: 2px solid #f5c9ed;
 }
-.menu li a{
+.menu li a {
   color: #f5c9ed;
 }
- .menu li:hover{
+.menu li:hover {
   background-color: #f5c9ed;
-  border: 2px solid #f5c9ed; 
+  border: 2px solid #f5c9ed;
 }
-.btn-search{
+.btn-search {
   width: 80px;
   height: 35px;
   background-color: #f5c9ed;
@@ -108,68 +102,58 @@
   box-shadow: 0 5px 0 #f5c9ed;
   background-color: rgb(245, 201, 237, 0.4);
 }
-.btn-search:hover{
+.btn-search:hover {
   background-color: #f5c9ed;
   border-color: #f5c9ed;
   color: black;
-
 }
 
-
-
-.block-2{
-   border: 2px solid green;
+.block-2 {
+  border: 2px solid green;
   background-color: #cccccc;
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
-.menu-2{
- 
- background: white;
+.menu-2 {
+  background: white;
 
   margin-top: 25px;
   margin-bottom: 25px;
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
-
 
 .carousel-inner img {
-      width: 100%;
-      height: 100%;
-  }
-
-
-.crutil{
- margin-bottom: 20px;
-  padding: 0px !important;
-  
+  width: 100%;
+  height: 100%;
 }
 
+.crutil {
+  margin-bottom: 20px;
+  padding: 0px !important;
+}
 
 .menu {
-  border-radius: 80% ;
-  
+  border-radius: 80%;
 }
 
-.text{
+.text {
   text-align: center;
   font-size: 30px;
-  
+
   box-shadow: 0 14px 28px #f5c9ed, 0 10px 10px #f5c9ed;
 }
 
 /*-------купальники--- 3 блока---------*/
 
- .flex-kupalnik {
+.flex-kupalnik {
   display: flex;
   justify-content: center;
   margin: auto;
   max-width: 1170px;
- 
 }
 
-.flex-kupalnik  .ramka-b {
- margin: 35px 5px;
+.flex-kupalnik .ramka-b {
+  margin: 35px 5px;
   width: 300px;
   height: 320px;
   min-height: 150px;
@@ -179,59 +163,52 @@
   position: relative;
 }
 
-.btn-cupalnik a{
+.btn-cupalnik a {
   display: block;
-  color: rgba(0,0,0,.5);
+  color: rgba(0, 0, 0, 0.5);
   font-size: 20px;
   margin-top: 330px;
-background-color: #f5c9ed;
-border-radius: 10px;
-border: 2px solid #f5c9ed;
-text-decoration: none;
+  background-color: #f5c9ed;
+  border-radius: 10px;
+  border: 2px solid #f5c9ed;
+  text-decoration: none;
 }
 
-.btn-cupalnik a:hover{
+.btn-cupalnik a:hover {
   background-color: #f587e1;
   color: white;
-
 }
 
-
-
-
-.kupalnik-1{
-  background-image: url('https://irecommend.ru/sites/default/files/product-images/368076/PFsbdxP8cbyzKMXt9I7vw.jpg'); 
+.kupalnik-1 {
+  background-image: url("https://irecommend.ru/sites/default/files/product-images/368076/PFsbdxP8cbyzKMXt9I7vw.jpg");
   background-position: top center;
   background-size: cover;
 }
 
-.kupalnik-2{
-  background-image: url('https://www.dhresource.com/0x0s/f2-albu-g8-M01-C7-11-rBVaVFzjcFCAPFbXAAOnNBC4V4A382.jpg/new-style.jpg'); 
+.kupalnik-2 {
+  background-image: url("https://www.dhresource.com/0x0s/f2-albu-g8-M01-C7-11-rBVaVFzjcFCAPFbXAAOnNBC4V4A382.jpg/new-style.jpg");
   background-position: top center;
   background-size: cover;
 }
 
-.kupalnik-3{
-   background-image: url('https://img.bigsale.com.ua/2018/05/29/letnie-skidki-na-kupalniki-i-bele-v-women-secret_5b0d6af31a03f_org.jpg'); 
+.kupalnik-3 {
+  background-image: url("https://img.bigsale.com.ua/2018/05/29/letnie-skidki-na-kupalniki-i-bele-v-women-secret_5b0d6af31a03f_org.jpg");
   background-position: top center;
   background-size: cover;
 }
 
-
-@media (max-width: 630px){
-.flex-kupalnik > div {
-width: 200px;
+@media (max-width: 630px) {
+  .flex-kupalnik > div {
+    width: 200px;
+  }
+  .flex-kupalnik {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
-.flex-kupalnik {
- display: flex;
- flex-wrap: wrap;
- justify-content: center;
-}
-}
-
 
 /*-----------купальники ----3-блока-------КОНЕЦ------*/
-
 
 /* --------Шесть кубов менюшки------------------ */
 /*.ramka{
@@ -239,13 +216,13 @@ width: 200px;
 
 }
 */
-.btn-sale{
+.btn-sale {
   max-width: 250px;
   background-color: white;
   font-size: 20px;
   color: #f587e1;
 }
-.btn-sale:hover{
+.btn-sale:hover {
   color: white;
   background-color: #55b35a;
   /* transform: scale(1.2); */
@@ -258,291 +235,248 @@ width: 200px;
   justify-content: center;
   margin: auto;
   max-width: 1170px;
-
-
-  
- 
 }
 
-.flex-container  .ramka-b {
- margin: 5px;
+.flex-container .ramka-b {
+  margin: 5px;
   width: 350px;
   min-width: 200px;
   height: 240px;
- 
+
   text-align: center;
-   
-
 }
 
-.platja{
-  background-image: url('https://i.ibb.co/WGkqVk4/foto-2.jpg'); 
-  background-position: top center;
-  background-size: cover;
-  
-}
-
-.kurtki{
-  background-image: url('https://i.ibb.co/w6y9VFK/foto-1.jpg'); 
+.platja {
+  background-image: url("https://i.ibb.co/WGkqVk4/foto-2.jpg");
   background-position: top center;
   background-size: cover;
 }
 
-.obuv{
-   background-image: url('https://i.ibb.co/svW9jg8/foto-3.jpg'); 
+.kurtki {
+  background-image: url("https://i.ibb.co/w6y9VFK/foto-1.jpg");
   background-position: top center;
   background-size: cover;
-  
-}
-.jubki{
-   background-image: url('https://i.ibb.co/QM22zdh/foto-4.jpg'); 
-  background-position: top center;
-  background-size: cover;
-  
-}
-.sumki{
-   background-image: url('https://i.ibb.co/mXBkZHK/foto-5.jpg'); 
-  background-position: top center;
-  background-size: cover;
-  
-}
-.aksessuary{
-   background-image: url('https://i.ibb.co/BnF3BK8/foto-6.jpg'); 
-  background-position: top center;
-  background-size: cover;
-  
 }
 
+.obuv {
+  background-image: url("https://i.ibb.co/svW9jg8/foto-3.jpg");
+  background-position: top center;
+  background-size: cover;
+}
+.jubki {
+  background-image: url("https://i.ibb.co/QM22zdh/foto-4.jpg");
+  background-position: top center;
+  background-size: cover;
+}
+.sumki {
+  background-image: url("https://i.ibb.co/mXBkZHK/foto-5.jpg");
+  background-position: top center;
+  background-size: cover;
+}
+.aksessuary {
+  background-image: url("https://i.ibb.co/BnF3BK8/foto-6.jpg");
+  background-position: top center;
+  background-size: cover;
+}
 
-
-.menu-block p{
+.menu-block p {
   color: white;
   font-size: 40px;
   text-shadow: red 0 0 4px;
-  margin-top:180px;
+  margin-top: 180px;
   z-index: 5;
-
-  
 }
-.menu-block a{
-   text-decoration: none;
+.menu-block a {
+  text-decoration: none;
 }
 
-
-.menu-block p:hover{
+.menu-block p:hover {
   color: white;
   font-size: 40px;
   /* border: 4px solid #ffdbfc; */
-   /* margin-top:50%; */
-   background-color: rgb(245, 201, 237, 0.7);
-   /* background-color:rgb(252,227,138, 0.9); */
-
+  /* margin-top:50%; */
+  background-color: rgb(245, 201, 237, 0.7);
+  /* background-color:rgb(252,227,138, 0.9); */
 }
 
 /* --------Шесть кубов менюшки-----КОНЕЦ------------- */
 
-
-
-
-
-.skidka{
-  margin:50px 0px;
-  
+.skidka {
+  margin: 50px 0px;
 }
-.skidka__img{
+.skidka__img {
   margin: 0px auto;
-  }
-  .skidka__text{
-    margin: 0px auto;
-  }
+}
+.skidka__text {
+  margin: 0px auto;
+}
 
- .row .back{
-   padding: 40px;
-   text-align: center;
-background-color: #ffdbfc;
-box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-  
+.row .back {
+  padding: 40px;
+  text-align: center;
+  background-color: #ffdbfc;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
-.opis-niz{
-  margin-top:50px;
+.opis-niz {
+  margin-top: 50px;
   justify-content: center;
-  
 }
-.opis-niz .ramka{
+.opis-niz .ramka {
   background-color: #f5c9ed;
-  padding-top:10px;
+  padding-top: 10px;
   margin: 15px;
-  transition:all 0.4s ease;
+  transition: all 0.4s ease;
 }
-.opis-niz .ramka:hover{
+.opis-niz .ramka:hover {
   -webkit-transform: rotateZ(-8deg);
   -ms-transform: rotateZ(-8deg);
   transform: rotateZ(-8deg);
 }
 
-
-.opis-niz .center{
-  text-align:center;
-  font-size:20px;
+.opis-niz .center {
+  text-align: center;
+  font-size: 20px;
 }
 
-.ramka__dostavka{
+.ramka__dostavka {
   border-radius: 50%;
   width: 100px;
   background-color: white;
   margin: 0px auto;
 }
 .flex-container .ramka-b:hover {
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
-.opis-niz img{
-width: 100%;
- display: block;
-  margin: 0 auto;  
+.opis-niz img {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
 }
 
-.skidka img{
+.skidka img {
   display: block;
   margin: 0 auto;
   border: none;
-  
 }
 
 /*ЧАСТЬ КОДА ДЛЯ ФУТЕРА*/
 
-
-.footer{
+.footer {
   margin-top: 100px;
   /* background-color: black; */
   padding: 15px;
-  background-image: url(img/footer-bg.jpg);
+  background-image: url(../img/footer-bg.jpg);
 }
-.footer-bg{
-  background-image: url("./img/footer-bg.jpg");
-}
+/* .footer-bg {
+  background-image: url("../img/footer-bg.jpg");
+} */
 
-.footer a{
-  color:#f5c9ed;
- 
+.footer a {
+  color: #f5c9ed;
 }
-.footer a:hover{
-  color:white;
+.footer a:hover {
+  color: white;
   text-decoration: none;
 }
 
-
-.footer-b{
+.footer-b {
   color: white;
   font-size: 25px;
 }
 
-.footer li{
+.footer li {
   list-style-type: none;
- margin-left: 0; 
-    padding-left: 0;
-  
+  margin-left: 0;
+  padding-left: 0;
 }
 
-.footer ul{
-  margin-left:0;
-  padding-left:0;
-  
+.footer ul {
+  margin-left: 0;
+  padding-left: 0;
 }
 /*ЧАСТЬ КОДА ДЛЯ ФУТЕРА-----КОНЕЦ-----*/
 
-
 /*КНОПКИ СОЦ СЕТЕЙ*/
 
-.social a{
-    text-align: center;
-    width: 55px;
-    height: 55px;
-    float: left;
-    background: #fff;
-    border: 1px solid #ccc;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
-    border-radius: 46px;
-    margin: 0 10px 10px 0;
-    padding: 6px;
-    color: #000;
-  
+.social a {
+  text-align: center;
+  width: 55px;
+  height: 55px;
+  float: left;
+  background: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15), inset 0 0 50px rgba(0, 0, 0, 0.1);
+  border-radius: 46px;
+  margin: 0 10px 10px 0;
+  padding: 6px;
+  color: #000;
 }
-.youtube a{
-  background-size:400px;
+.youtube a {
+  background-size: 400px;
   background-position: -210px -69px;
   background-repeat: no-repeat;
-background-image: url(https://graphicsland.ru/wp-content/uploads/social_icons_v2_graphicsland.ru-5-700x578.png);
+  background-image: url(https://graphicsland.ru/wp-content/uploads/social_icons_v2_graphicsland.ru-5-700x578.png);
 }
-.google-pluse a{
-   background-size:400px;
+.google-pluse a {
+  background-size: 400px;
   background-position: -279px 1px;
   background-repeat: no-repeat;
-background-image: url(https://graphicsland.ru/wp-content/uploads/social_icons_v2_graphicsland.ru-5-700x578.png);
+  background-image: url(https://graphicsland.ru/wp-content/uploads/social_icons_v2_graphicsland.ru-5-700x578.png);
 }
-.twitter a{
-   background-size:400px;
+.twitter a {
+  background-size: 400px;
   background-position: -210px 1px;
   background-repeat: no-repeat;
-background-image: url(https://graphicsland.ru/wp-content/uploads/social_icons_v2_graphicsland.ru-5-700x578.png);
+  background-image: url(https://graphicsland.ru/wp-content/uploads/social_icons_v2_graphicsland.ru-5-700x578.png);
 }
-.instagram a{
-   background-size:400px;
+.instagram a {
+  background-size: 400px;
   background-position: -348px 1px;
   background-repeat: no-repeat;
-background-image: url(https://graphicsland.ru/wp-content/uploads/social_icons_v2_graphicsland.ru-5-700x578.png);
+  background-image: url(https://graphicsland.ru/wp-content/uploads/social_icons_v2_graphicsland.ru-5-700x578.png);
 }
-.facebook a{
-   background-size:400px;
+.facebook a {
+  background-size: 400px;
   background-position: -140px 1px;
   background-repeat: no-repeat;
-background-image: url(https://graphicsland.ru/wp-content/uploads/social_icons_v2_graphicsland.ru-5-700x578.png);
+  background-image: url(https://graphicsland.ru/wp-content/uploads/social_icons_v2_graphicsland.ru-5-700x578.png);
 }
 
-
-
-.youtube a:hover 
-{
-   background-color: #c4302b; 
-  background-size:400px;
+.youtube a:hover {
+  background-color: #c4302b;
+  background-size: 400px;
   background-position: -210px -69px;
   background-repeat: no-repeat;
-background-image: url(https://graphicsland.ru/wp-content/uploads/social_icons_v2_graphicsland.ru-5-700x578.png);
-
+  background-image: url(https://graphicsland.ru/wp-content/uploads/social_icons_v2_graphicsland.ru-5-700x578.png);
 }
-.google-pluse a:hover
-{
+.google-pluse a:hover {
   background-color: #4987fc;
-   background-size:400px;
+  background-size: 400px;
   background-position: -279px 1px;
   background-repeat: no-repeat;
-background-image: url(https://graphicsland.ru/wp-content/uploads/social_icons_v2_graphicsland.ru-5-700x578.png);
+  background-image: url(https://graphicsland.ru/wp-content/uploads/social_icons_v2_graphicsland.ru-5-700x578.png);
 }
-.twitter a:hover 
-{
-  background-color: #96e1ff; 
-  background-size:400px;
+.twitter a:hover {
+  background-color: #96e1ff;
+  background-size: 400px;
   background-position: -210px 1px;
   background-repeat: no-repeat;
-background-image: url(https://graphicsland.ru/wp-content/uploads/social_icons_v2_graphicsland.ru-5-700x578.png);
+  background-image: url(https://graphicsland.ru/wp-content/uploads/social_icons_v2_graphicsland.ru-5-700x578.png);
 }
-.instagram a:hover 
-{
-  background-color: #efc728; 
-  background-size:400px;
+.instagram a:hover {
+  background-color: #efc728;
+  background-size: 400px;
   background-position: -348px 1px;
   background-repeat: no-repeat;
-background-image: url(https://graphicsland.ru/wp-content/uploads/social_icons_v2_graphicsland.ru-5-700x578.png);
+  background-image: url(https://graphicsland.ru/wp-content/uploads/social_icons_v2_graphicsland.ru-5-700x578.png);
 }
-.facebook a:hover 
-{
-  background-color: #6675f4; 
-   background-size:400px;
+.facebook a:hover {
+  background-color: #6675f4;
+  background-size: 400px;
   background-position: -140px 1px;
   background-repeat: no-repeat;
-background-image: url(https://graphicsland.ru/wp-content/uploads/social_icons_v2_graphicsland.ru-5-700x578.png);
+  background-image: url(https://graphicsland.ru/wp-content/uploads/social_icons_v2_graphicsland.ru-5-700x578.png);
 }
-
 
 /*КНОПКИ СОЦ СЕТЕЙ-------КОНЕЦ*/
-
